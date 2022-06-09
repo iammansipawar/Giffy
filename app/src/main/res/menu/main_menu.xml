@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/my_orders"
+            android:title="My Orders"/>
+
+        <item
+            android:id="@+id/my_account"
+            android:title="My Account"/>
+
+        <item
+            android:id="@+id/my_cart"
+            android:title="My Cart"/>
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_loginOrRegister"-->
+<!--            android:icon="@drawable/ic_baseline_person_24"-->
+<!--            android:title="Login or Register" />-->
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+
+    </group>
+
+<!--    <group android:checkableBehavior="single">-->
+
+<!--        <item android:title="Categories">-->
+<!--            <menu>-->
+<!--                <group android:checkableBehavior="single">-->
+<!--                    <item-->
+<!--                        android:id="@+id/nav_card"-->
+<!--                        android:title="Card" />-->
+<!--                    <item-->
+<!--                        android:id="@+id/nav_box"-->
+<!--                        android:title="Box" />-->
+<!--                    <item-->
+<!--                        android:id="@+id/nav_scrapbook"-->
+<!--                        android:title="Scrapbook" />-->
+<!--                    <item-->
+<!--                        android:id="@+id/nav_other"-->
+<!--                        android:title="Other.." />-->
+
+<!--                </group>-->
+<!--            </menu>-->
+<!--        </item>-->
+
+<!--    </group>-->
+
+    <group android:checkableBehavior="single">
+        <item android:title="Applications">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_share"
+                        android:icon="@drawable/ic_baseline_share_24"
+                        android:title="Share" />
+                    <item
+                        android:id="@+id/nav_rate"
+                        android:icon="@drawable/ic_baseline_star_rate_24"
+                        android:title="Rate" />
+                    <item
+                        android:id="@+id/nav_feedback"
+                        android:icon="@drawable/ic_baseline_feedback_24"
+                        android:title="Feedback" />
+<!--                    <item-->
+<!--                        android:id="@+id/nav_policy"-->
+<!--                        android:icon="@drawable/ic_baseline_privacy_tip_24"-->
+<!--                        android:title="Privacy Policy" />-->
+                    <item
+                        android:id="@+id/nav_exit"
+                        android:icon="@drawable/ic_baseline_exit_to_app_24"
+                        android:title="Exit" />
+                </group>
+            </menu>
+        </item>
+
+    </group>
+    <!--    <item android:title="Communicate with us">-->
+    <!--        <menu>-->
+    <!--            <item-->
+    <!--                android:id="@+id/nav_query"-->
+    <!--                android:title="Query"-->
+    <!--                android:icon="@drawable/ic_baseline_chat_24"/>-->
+    <!--            <item-->
+    <!--                android:id="@+id/nav_help"-->
+    <!--                android:title="Help"-->
+    <!--                android:icon="@drawable/ic_baseline_help_24"/>-->
+    <!--        </menu>-->
+    <!--    </item>-->
+</menu>
